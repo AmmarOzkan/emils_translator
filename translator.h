@@ -21,8 +21,9 @@ public:
 		translatesFile.imbue(std::locale("Turkish"));
 		while (std::getline(translatesFile, input))
 		{
+			if (input[0] == '#') continue;
 			std::vector<std::string> splitted = el::StrCalc::splitOut(input, ',', '"');
-			translates.push_back({splitted[0], splitted[1]});
+			translates.push_back({ splitted[0], splitted[1] });
 		}
 	}
 	Translator(){  }
