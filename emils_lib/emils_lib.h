@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <unordered_map>
+#include <vector>
 
 #ifdef MYLIBRARY_EXPORT
 #define MYLIBRARY_API /*DLLEXPORT*/
@@ -29,7 +30,6 @@ namespace el {
 		MYLIBRARY_API bool isContains(std::string string, std::string wllSearch);
 		MYLIBRARY_API int whereContains(std::string string, std::string wllSearch, int place);
 		MYLIBRARY_API int howManyContains(std::string string, char c);
-		MYLIBRARY_API int howManyContains(std::string string, std::string wllSearch);
 		MYLIBRARY_API int getThats(std::string string, char a, int place);
 		MYLIBRARY_API std::string getBetweenThat(std::string string, int p1, int p2);
 		MYLIBRARY_API std::vector<std::string> split(std::string str, char c);
@@ -135,7 +135,7 @@ namespace el {
 	}
 	namespace Geo {
 		typedef int angle;
-		struct Angle2 { Vectors::Vector2 v; angle angle; };
+		struct Angle2 { Vectors::Vector2 v; angle ang; };
 		MYLIBRARY_API Angle2 getAngle(float x, float y, angle angleD);
 		MYLIBRARY_API bool operator==(Angle2 a, Angle2 b);
 		struct Triangle2 { Angle2 a, b, c; }; 
