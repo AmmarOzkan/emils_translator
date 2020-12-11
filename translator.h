@@ -31,7 +31,9 @@ public:
 	{
 		for (TranslateVal t : translates)
 		{
-			for(int i = el::StrCalc::howManyContains(text,t.bef) ; i>0 ; i--) text = el::StrCalc::Replace(text, t.bef, t.aft);
+			for(int i = el::StrCalc::howManyContains(text,t.bef) ; i>0 ; i--){
+				text = el::StrCalc::Replace(text,t.bef,t.aft,i);
+			} 
 		}
 		return text;
 	}
