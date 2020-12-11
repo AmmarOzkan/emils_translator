@@ -55,3 +55,7 @@ Algoritma yapısından dolayı dosyada yukarıdan aşağıya doğru okur ve ona 
 Dosya oluştururken ilk başa büyük veya önemli sonada küçük veya önemsiz parçalar yerleştirilmeli.
 
 Örneğin r leri d ye çevirip sonraki satırda dada kelimesi kontrol edilebilir.
+
+
+
+examplesjlanguage linuxda calismamaktadir.
