@@ -18,7 +18,6 @@ public:
 	Translator(std::string filePath)
 	{
 		std::fstream translatesFile(filePath); std::string input;
-		translatesFile.imbue(std::locale("Turkish"));
 		while (std::getline(translatesFile, input))
 		{
 			if (input[0] == '#') continue;
