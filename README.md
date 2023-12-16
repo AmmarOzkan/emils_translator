@@ -37,7 +37,7 @@ uzun dosya denemeleri
 
 "LAN "," !?O_O?! "
 
-#### Burda LAN'ın sonuna boşluk koymamın sebebi sonunun bir kelimeye bağlı olmamasını istemememden dolayı. Sonundaki boşluğu yok etmemek içinde sonucun sonunada boşluk ekledim.
+#### Burda LAN'ın sonuna boşluk koymamın sebebi sonunun bir kelimeye bağlı olmamasını istemememden dolayı. Sonundaki boşluğu yok etmemek içinde sonucun sonuna da boşluk ekledim.
 "t","d"
 
 "dans","ricardo milos"
@@ -52,6 +52,6 @@ kes lan tatavayi :) ------------> kwes lan dadavayi :))))
 
 Algoritma yapısından dolayı dosyada yukarıdan aşağıya doğru okur ve ona göre değişiklik yapar. Mesela ilk satırda ":D","xd" varsa ilk :D'yi kontrol eder ve eğer girilen cümlede :D varsa :D'ları xd ile değiştirir.
 
-Dosya oluştururken ilk başa büyük veya önemli sonada küçük veya önemsiz parçalar yerleştirilmeli.
+Dosya oluştururken ilk başa büyük veya önemli, sona da küçük veya önemsiz parçalar yerleştirilmeli.
 
 Örneğin r leri d ye çevirip sonraki satırda dada kelimesi kontrol edilebilir.
